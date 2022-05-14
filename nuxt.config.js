@@ -53,5 +53,9 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [/^element-ui/],
+  },
+  publicRuntimeConfig: {
+    base: '/base/in/nuxt/config/js',
+    foo: '/foo/in/nuxt/config/js',
   }
 }

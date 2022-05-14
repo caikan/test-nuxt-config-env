@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+  <div>{{ $config }}</div>
 </template>
 
 <script lang="ts">
